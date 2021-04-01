@@ -1,6 +1,6 @@
 {% set name = "spacy-legacy" %}
 {% set modulename = "spacy_legacy" %}
-{% set version = "3.0.1" %}
+{% set version = "3.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 3443becabcdcb797df95144c9865ab28f08e2e1a36653626e65f7c2a73ce7a08
+  sha256: 5ccd60eb351964691b4f52c09f6a054e1278ef592cfbc77e7fc75aee69b57524
 
 build:
   noarch: python
@@ -39,8 +39,8 @@ about:
   license_file: LICENSE
   summary: Legacy functions and architectures for backwards compatibility
   description: |
-      This package includes outdated registered functions for spaCy v3.x, for
-      example model architectures, pipeline components and utilities.
+    This package includes outdated registered functions for spaCy v3.x, for
+    example model architectures, pipeline components and utilities.
   doc_url: https://github.com/explosion/spacy-legacy
   dev_url: https://github.com/explosion/spacy-legacy
 
