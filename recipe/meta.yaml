@@ -25,11 +25,10 @@ requirements:
 test:
   imports:
     - {{ modulename }}
-# TODO: enable after spacy 3.0.0 is published
-#  requires:
-#    - pytest
-#  commands:
-#    - python -m pytest --tb=native --pyargs {{ modulename }}
+  requires:
+    - pytest
+  commands:
+    - python -m pytest --tb=native --pyargs {{ modulename }}
 
 
 about:
