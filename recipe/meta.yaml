@@ -1,6 +1,6 @@
 {% set name = "spacy-legacy" %}
 {% set modulename = "spacy_legacy" %}
-{% set version = "3.0.4" %}
+{% set version = "3.0.5" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 37d5de173ec5573ce32a3c2d20d526f924fafe38341604f5d6b0b385b1b86ac0
+  sha256: 532f78ae31659528fadb6453cdde9425a426227882c388297aafd7e7b41c2290
 
 build:
   noarch: python
